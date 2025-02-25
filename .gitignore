@@ -27,3 +27,38 @@ yarn-error.log*
 .vscode
 *.swp
 *.swo
+
+# Frontend dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/build
+/frontend/coverage
+/frontend/dist
+
+# Backend
+/backend/__pycache__
+/backend/venv
+/backend/*.pyc
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
