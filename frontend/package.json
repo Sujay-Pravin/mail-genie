@@ -1,5 +1,5 @@
 {
-  "name": "mail-genie",
+  "name": "mail-genie-frontend",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -25,3 +25,4 @@
   }
 }
 
+   
