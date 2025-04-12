@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -28,6 +33,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./backend
           destination_dir: api
+          commit_message: "Deploy backend to GitHub Pages"
 
       - name: Prepare for GitHub Pages deployment
         run: |
