@@ -1,26 +1,26 @@
-# Mail Genie
+# 📧 Mail Genie
 
 A full-stack application for generating and sending personalized certificates via email. Built with React (frontend) and Flask (backend).
 
-## Features
+## ✨ Features
 
-- Upload certificate template images
-- Import recipient data from Excel files
-- Customize certificate text positioning and styling
-- Real-time certificate preview
-- Bulk email sending with progress tracking
-- Error handling and retry capabilities
-- Support for Gmail SMTP
-- Live progress monitoring
-- Cancellable sending process
+- 📤 Upload certificate template images
+- 📊 Import recipient data from Excel files
+- 🎨 Customize certificate text positioning and styling
+- 👀 Real-time certificate preview
+- 📨 Bulk email sending with progress tracking
+- ⚠️ Error handling and retry capabilities
+- 📧 Support for Gmail SMTP
+- 📊 Live progress monitoring
+- ⏹️ Cancellable sending process
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Node.js (v14 or higher)
 - Python (v3.7 or higher)
 - Gmail account with App Password enabled
 
-### Setting up Gmail App Password
+### 🔐 Setting up Gmail App Password
 
 1. Go to your Google Account settings
 2. Navigate to Security
@@ -29,7 +29,7 @@ A full-stack application for generating and sending personalized certificates vi
 5. Generate a new app password for "Mail"
 6. Save this password for use in the application
 
-## Installation
+## 🚀 Installation
 
 ### Backend Setup
 
@@ -79,7 +79,7 @@ cd frontend
 npm install
 ```
 
-## Running the Application
+## 🏃 Running the Application
 
 1. Start the backend server:
 
@@ -99,7 +99,7 @@ npm start
 
 The frontend will run on http://localhost:3000
 
-## Deployment
+## 🌐 Deployment
 
 ### Backend Deployment
 
@@ -153,7 +153,7 @@ git push -u origin main
    - Set up environment secrets for sensitive data
    - Configure workflow permissions
 
-## Usage Guide
+## 📝 Usage Guide
 
 1. **Excel File Format**
 
@@ -190,7 +190,7 @@ git push -u origin main
    - Cancellation support
    - Preview of current certificate
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
 Common issues and solutions:
 
@@ -209,14 +209,14 @@ Common issues and solutions:
    - Check if coordinates are within image bounds
    - Verify font availability on your system
 
-## Security Notes
+## 🔒 Security Notes
 
 - Never share your App Password
 - The application doesn't store any credentials
 - All processing is done locally
 - Files are processed in memory and not saved to disk
 
-## Technical Details
+## 💻 Technical Details
 
 - Frontend: React.js with modern hooks
 - Backend: Flask with Python 3
@@ -224,7 +224,7 @@ Common issues and solutions:
 - Email: SMTP with TLS
 - Data Processing: Pandas for Excel handling
 
-## Recent Updates
+## 📌 Recent Updates
 
 - Added color picker for text customization
 - Improved text positioning preview
@@ -232,6 +232,6 @@ Common issues and solutions:
 - Added support for multiple text fields
 - Real-time certificate preview
 
-## License
+## 📜 License
 
-MIT License - Feel free to use and modify for your needs.
+This project is for educational and personal use. Modify and improve as you like!
